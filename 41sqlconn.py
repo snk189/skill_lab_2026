@@ -1,0 +1,5 @@
+import sqlite3
+
+conn = sqlite3.connect("users.db")
+
+conn.close()
